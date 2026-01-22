@@ -1,0 +1,99 @@
+{
+  "inspirations": [
+    { "id": 1, "title": "Biryani", "image": "https://source.unsplash.com/400x400/?biryani" },
+    { "id": 2, "title": "Pizza", "image": "https://source.unsplash.com/400x400/?pizza" },
+    { "id": 3, "title": "Chicken", "image": "https://source.unsplash.com/400x400/?chicken,food" },
+    { "id": 4, "title": "Burger", "image": "https://source.unsplash.com/400x400/?burger" },
+    { "id": 5, "title": "Rolls", "image": "https://source.unsplash.com/400x400/?rolls,wrap" },
+    { "id": 6, "title": "Cake", "image": "https://source.unsplash.com/400x400/?cake" },
+    { "id": 7, "title": "North Indian", "image": "https://source.unsplash.com/400x400/?north-indian-food" },
+    { "id": 8, "title": "South Indian", "image": "https://source.unsplash.com/400x400/?south-indian-food" },
+    { "id": 9, "title": "Chinese", "image": "https://source.unsplash.com/400x400/?chinese-food" },
+    { "id": 10, "title": "Pasta", "image": "https://source.unsplash.com/400x400/?pasta" },
+    { "id": 11, "title": "Desserts", "image": "https://source.unsplash.com/400x400/?dessert" },
+    { "id": 12, "title": "Sandwich", "image": "https://source.unsplash.com/400x400/?sandwich" },
+    { "id": 13, "title": "Momos", "image": "https://source.unsplash.com/400x400/?momos" },
+    { "id": 14, "title": "Ice Cream", "image": "https://source.unsplash.com/400x400/?ice-cream" },
+    { "id": 15, "title": "Healthy", "image": "https://source.unsplash.com/400x400/?healthy-food" }
+  ],
+
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Spice Hub",
+      "image": "https://source.unsplash.com/800x600/?indian,restaurant",
+      "rating": 4.5,
+      "totalRatings": "5K+",
+      "cuisines": ["Indian", "Chinese"],
+      "priceForTwo": 400,
+      "deliveryTime": 30,
+      "distance": "2.5 km",
+      "location": "BTM, Bangalore",
+      "offers": ["50% OFF up to ₹100", "Free Delivery"],
+      "isVeg": true,
+      "menu": [
+        { "id": 101, "name": "Paneer Butter Masala", "price": 220, "image": "https://source.unsplash.com/400x300/?paneer", "isVeg": true },
+        { "id": 102, "name": "Veg Biryani", "price": 180, "image": "https://source.unsplash.com/400x300/?biryani", "isVeg": true }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Burger Junction",
+      "image": "https://source.unsplash.com/800x600/?burger,restaurant",
+      "rating": 4.2,
+      "totalRatings": "3K+",
+      "cuisines": ["Fast Food", "American"],
+      "priceForTwo": 350,
+      "deliveryTime": 25,
+      "distance": "1.8 km",
+      "location": "Gachibowli, Hyderabad",
+      "offers": ["Buy 1 Get 1"],
+      "isVeg": false,
+      "menu": [
+        { "id": 201, "name": "Cheese Burger", "price": 150, "image": "https://source.unsplash.com/400x300/?cheeseburger", "isVeg": false },
+        { "id": 202, "name": "French Fries", "price": 90, "image": "https://source.unsplash.com/400x300/?fries", "isVeg": true }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Pizza Palace",
+      "image": "https://source.unsplash.com/800x600/?pizza,restaurant",
+      "rating": 4.6,
+      "totalRatings": "8K+",
+      "cuisines": ["Italian", "Pizza"],
+      "priceForTwo": 500,
+      "deliveryTime": 35,
+      "distance": "3.2 km",
+      "location": "Indiranagar, Bangalore",
+      "offers": ["30% OFF", "₹125 Cashback"],
+      "isVeg": false,
+      "menu": [
+        { "id": 301, "name": "Margherita Pizza", "price": 280, "image": "https://source.unsplash.com/400x300/?pizza", "isVeg": true },
+        { "id": 302, "name": "Pepperoni Pizza", "price": 350, "image": "https://source.unsplash.com/400x300/?pepperoni,pizza", "isVeg": false }
+      ]
+    },
+
+    { "id": 4, "name": "Green Leaf", "image": "https://source.unsplash.com/800x600/?vegetarian,restaurant", "rating": 4.3, "totalRatings": "4K+", "cuisines": ["South Indian"], "priceForTwo": 300, "deliveryTime": 20, "distance": "1.2 km", "location": "Jayanagar, Bangalore", "offers": ["20% OFF"], "isVeg": true, "menu": [] },
+    { "id": 5, "name": "Biryani House", "image": "https://source.unsplash.com/800x600/?biryani,restaurant", "rating": 4.7, "totalRatings": "10K+", "cuisines": ["Biryani", "Mughlai"], "priceForTwo": 600, "deliveryTime": 40, "distance": "4.1 km", "location": "Charminar, Hyderabad", "offers": ["₹150 OFF"], "isVeg": false, "menu": [] },
+    { "id": 6, "name": "Wok Express", "image": "https://source.unsplash.com/800x600/?chinese,restaurant", "rating": 4.1, "totalRatings": "2K+", "cuisines": ["Chinese"], "priceForTwo": 350, "deliveryTime": 30, "distance": "2 km", "location": "Salt Lake, Kolkata", "offers": ["Free Drink"], "isVeg": false, "menu": [] },
+    { "id": 7, "name": "Tandoori Tales", "image": "https://source.unsplash.com/800x600/?tandoori", "rating": 4.4, "totalRatings": "6K+", "cuisines": ["North Indian"], "priceForTwo": 450, "deliveryTime": 35, "distance": "3 km", "location": "Noida Sec 62", "offers": ["25% OFF"], "isVeg": false, "menu": [] },
+    { "id": 8, "name": "Pasta Street", "image": "https://source.unsplash.com/800x600/?pasta", "rating": 4.0, "totalRatings": "1.5K+", "cuisines": ["Italian"], "priceForTwo": 400, "deliveryTime": 28, "distance": "2.3 km", "location": "Powai, Mumbai", "offers": [], "isVeg": true, "menu": [] },
+    { "id": 9, "name": "Rolls & Wraps", "image": "https://source.unsplash.com/800x600/?rolls", "rating": 4.2, "totalRatings": "3.8K+", "cuisines": ["Fast Food"], "priceForTwo": 250, "deliveryTime": 22, "distance": "1.5 km", "location": "Karol Bagh, Delhi", "offers": ["Buy 2 Get 1"], "isVeg": false, "menu": [] },
+    { "id": 10, "name": "Cafe Brew", "image": "https://source.unsplash.com/800x600/?cafe", "rating": 4.6, "totalRatings": "7K+", "cuisines": ["Cafe", "Desserts"], "priceForTwo": 500, "deliveryTime": 30, "distance": "2.8 km", "location": "Koramangala, Bangalore", "offers": ["Flat 20% OFF"], "isVeg": true, "menu": [] },
+
+    { "id": 11, "name": "Punjabi Dhaba", "image": "https://source.unsplash.com/800x600/?punjabi,food", "rating": 4.3, "totalRatings": "6.5K+", "cuisines": ["Punjabi"], "priceForTwo": 380, "deliveryTime": 32, "distance": "2.9 km", "location": "Chandigarh", "offers": [], "isVeg": false, "menu": [] },
+    { "id": 12, "name": "Sushi Zen", "image": "https://source.unsplash.com/800x600/?sushi", "rating": 4.5, "totalRatings": "2K+", "cuisines": ["Japanese"], "priceForTwo": 900, "deliveryTime": 45, "distance": "5 km", "location": "Bandra, Mumbai", "offers": ["₹200 OFF"], "isVeg": false, "menu": [] },
+    { "id": 13, "name": "Healthy Bowls", "image": "https://source.unsplash.com/800x600/?healthy,food", "rating": 4.4, "totalRatings": "2.2K+", "cuisines": ["Healthy", "Salads"], "priceForTwo": 450, "deliveryTime": 25, "distance": "1.9 km", "location": "HSR Layout, Bangalore", "offers": [], "isVeg": true, "menu": [] },
+    { "id": 14, "name": "Street Momos", "image": "https://source.unsplash.com/800x600/?momos", "rating": 4.1, "totalRatings": "3K+", "cuisines": ["Tibetan"], "priceForTwo": 200, "deliveryTime": 18, "distance": "1 km", "location": "Lajpat Nagar, Delhi", "offers": ["10% OFF"], "isVeg": false, "menu": [] },
+    { "id": 15, "name": "Sweet Tooth", "image": "https://source.unsplash.com/800x600/?dessert", "rating": 4.7, "totalRatings": "9K+", "cuisines": ["Desserts"], "priceForTwo": 300, "deliveryTime": 20, "distance": "2.2 km", "location": "Alwarpet, Chennai", "offers": ["Free Dessert"], "isVeg": true, "menu": [] },
+
+    { "id": 16, "name": "BBQ Nation Express", "image": "https://source.unsplash.com/800x600/?bbq", "rating": 4.6, "totalRatings": "12K+", "cuisines": ["BBQ"], "priceForTwo": 700, "deliveryTime": 45, "distance": "4.5 km", "location": "Whitefield, Bangalore", "offers": [], "isVeg": false, "menu": [] },
+    { "id": 17, "name": "Kebab Factory", "image": "https://source.unsplash.com/800x600/?kebab", "rating": 4.3, "totalRatings": "5K+", "cuisines": ["Mughlai"], "priceForTwo": 550, "deliveryTime": 38, "distance": "3.6 km", "location": "Bhopal", "offers": ["₹100 OFF"], "isVeg": false, "menu": [] },
+    { "id": 18, "name": "Veg Treat", "image": "https://source.unsplash.com/800x600/?veg,restaurant", "rating": 4.0, "totalRatings": "1.2K+", "cuisines": ["Pure Veg"], "priceForTwo": 260, "deliveryTime": 20, "distance": "1.4 km", "location": "Udaipur", "offers": [], "isVeg": true, "menu": [] },
+    { "id": 19, "name": "Thai Spice", "image": "https://source.unsplash.com/800x600/?thai,food", "rating": 4.4, "totalRatings": "2.7K+", "cuisines": ["Thai"], "priceForTwo": 650, "deliveryTime": 40, "distance": "3.9 km", "location": "Viman Nagar, Pune", "offers": ["15% OFF"], "isVeg": false, "menu": [] },
+    { "id": 20, "name": "Midnight Cravings", "image": "https://source.unsplash.com/800x600/?fastfood,night", "rating": 4.2, "totalRatings": "4.4K+", "cuisines": ["Fast Food", "Snacks"], "priceForTwo": 300, "deliveryTime": 24, "distance": "2 km", "location": "Andheri West, Mumbai", "offers": ["Late Night Special"], "isVeg": false, "menu": [] }
+  ],
+
+  "cart": [],
+  "orders": []
+}
